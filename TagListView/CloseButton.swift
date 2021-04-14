@@ -16,7 +16,7 @@ public class CloseButton: UIButton {
 
     weak var tagView: TagView?
 
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         let path = UIBezierPath()
 
         path.lineWidth = lineWidth
